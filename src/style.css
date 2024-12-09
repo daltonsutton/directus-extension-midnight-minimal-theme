@@ -4,7 +4,7 @@
 
 .module-bar-logo,
 .public-view .logo {
-    /* background-color: var(--theme--background) !important; */
+    background-color: var(--theme--background) !important;
 }
 
 .uploading {
