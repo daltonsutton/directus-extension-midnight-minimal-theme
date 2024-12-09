@@ -1,6 +1,6 @@
 {
 	"name": "directus-extension-midnight-minimal-theme",
-	"description": "A dark theme for Directus by Dalton Sutton.",
+	"description": "A dark minimal theme for Directus",
 	"author": {
 		"email": "dalton@sutton.io",
 		"name": "Dalton Sutton"
