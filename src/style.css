@@ -35,3 +35,7 @@ body.dark .tox .tox-toolbar__overflow,
 .user-box .avatar {
     border: 0px !important;
 }
+
+.avatar:after {
+    box-shadow: none !important;
+}
