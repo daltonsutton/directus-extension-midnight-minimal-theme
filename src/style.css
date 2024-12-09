@@ -1,0 +1,37 @@
+/* 
+ * This file is used to further customize the appearance of the Directus interface.
+ */
+
+.module-bar-logo,
+.public-view .logo {
+    /* background-color: var(--theme--background) !important; */
+}
+
+.uploading {
+    background-color: var(--theme--background) !important;
+}
+
+body.dark .tox .tox-toolbar,
+body.dark .tox .tox-toolbar__primary,
+body.dark .tox .tox-toolbar__overflow,
+.shared .logo {
+    background: var(--theme--form--field--input--background-subdued) !important;
+}
+
+.shared .inline-container {
+    box-shadow: none !important;
+    border: 1px solid #161616 !important;
+}
+
+.notification-item {
+    color: var(--theme--background) !important;
+}
+
+.pagination .active .button {
+    color: var(--theme--background) !important;
+    background-color: var(--theme--foreground) !important;
+}
+
+.user-box .avatar {
+    border: 0px !important;
+}

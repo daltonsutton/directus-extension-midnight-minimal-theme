@@ -1,0 +1,47 @@
+{
+	"name": "directus-extension-midnight-minimal-theme",
+	"description": "A dark theme for Directus by Dalton Sutton.",
+	"author": {
+		"email": "dalton@sutton.io",
+		"name": "Dalton Sutton"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daltonsutton/directus-extension-midnight-minimal-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daltonsutton/directus-extension-midnight-minimal-theme/issues"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	},
+	"homepage": "https://github.com/daltonsutton/directus-extension-midnight-minimal-theme",
+	"icon": "extension",
+	"version": "1.0.0",
+	"keywords": [
+		"directus",
+		"directus-extension",
+		"directus-extension-theme"
+	],
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"directus:extension": {
+		"type": "theme",
+		"path": "dist/index.js",
+		"source": "src/index.js",
+		"host": "^10.10.0"
+	},
+	"scripts": {
+		"build": "directus-extension build",
+		"dev": "directus-extension build -w --no-minify",
+		"link": "directus-extension link"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "12.1.4",
+		"vue": "^3.5.13"
+	}
+}
