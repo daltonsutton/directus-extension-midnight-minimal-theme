@@ -39,3 +39,20 @@ body.dark .tox .tox-toolbar__overflow,
 .avatar:after {
     box-shadow: none !important;
 }
+
+.version-button.main {
+    background-color: var(--theme--foreground) !important;
+    color: var(--theme--background) !important;
+}
+
+.plyr__control svg {
+    fill: var(--theme--background) !important;
+}
+
+.plyr__controls button svg {
+    fill: var(--theme--foreground) !important;
+}
+
+.plyr__controls button:hover svg {
+    fill: var(--theme--background) !important;
+}
